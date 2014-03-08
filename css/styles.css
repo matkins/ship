@@ -64,6 +64,9 @@ a {
   color: #fff;
   background-color: #0066B8;
 }
+.navbar-default .navbar-nav>.open>a .caret,
+.navbar-default .navbar-nav>.open>a:hover .caret,
+.navbar-default .navbar-nav>.open>a:focus .caret,
 .navbar-default .navbar-nav>.dropdown>a .caret {
 border-top-color: #fff;
 border-bottom-color: #fff;
