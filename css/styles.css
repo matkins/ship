@@ -41,6 +41,30 @@ body {
 a {
   color:#0071C6;
 }
-.nav-pills>li.active>a, .nav-pills>li.active>a:hover, .nav-pills>li.active>a:focus {
-  background-color: #0071C6;
+.navbar-nav>li.active>a, .navbar-nav>li.active>a:hover, .navbar-nav>li.active>a:focus {
+}
+.navbar-default {
+  background-color: #0072C6;
+  border-color: #3479B9;
+}
+.navbar-default .navbar-nav>li>a {
+  color: #fff;
+}
+.navbar-default .navbar-nav>.active>a,
+.navbar-default .navbar-nav>.active>a:hover,
+.navbar-default .navbar-nav>.active>a:focus {
+  color: #fff;
+  background-color: #0058AA;
+}
+.navbar-default .navbar-nav>li>a:hover,
+.navbar-default .navbar-nav>li>a:focus,
+.navbar-default .navbar-nav>.open>a,
+.navbar-default .navbar-nav>.open>a:hover,
+.navbar-default .navbar-nav>.open>a:focus {
+  color: #fff;
+  background-color: #0066B8;
+}
+.navbar-default .navbar-nav>.dropdown>a .caret {
+border-top-color: #fff;
+border-bottom-color: #fff;
 }
