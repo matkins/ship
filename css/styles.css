@@ -20,6 +20,9 @@ body {
 .media-object {
   width:160px;
 }
+h2 {
+  margin-bottom:20px;
+}
 .footer {
   margin-top:20px;
   padding-top: 19px;
@@ -31,8 +34,19 @@ body {
     max-width: 768px;
   }
 }
+@media(max-width: 767px) {
+  .navbar-nav {
+    margin:0px;
+  }
+  .navbar-default .navbar-nav .open .dropdown-menu>li>a {
+    color: #fff;
+  }
+}
 a {
   color:#0071C6;
+}
+.navbar-nav>li {
+  float:none;
 }
 .navbar-default {
   background-color: #0072C6;
