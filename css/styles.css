@@ -5,35 +5,27 @@ body {
 }
 .header {
   border-bottom: 1px solid #e5e5e5;
+  text-align:center;
 }
 .logo img {
-  float:left;
-  width: 170px;
-  height: 100px;
-  margin-bottom:20px;
+  height: 70px;
+  margin:20px;
 }
-.logo p {
-  float:left;
-  font-size:16px;
-  color:#aaa;
-  margin:10px 0px 0px 10px;
+.media a{
+  color:#333;
 }
-.logo p b{
-  color:#666;
-}
-.nav {
+.media p a:hover{
+  text-decoration:none
 }
 .media-object {
   width:160px;
 }
-/* Custom page footer */
 .footer {
   margin-top:20px;
   padding-top: 19px;
   color: #777;
   border-top: 1px solid #e5e5e5;
 }
-/* Customize container */
 @media(min-width: 768px) {
   .container {
     max-width: 768px;
@@ -41,8 +33,6 @@ body {
 }
 a {
   color:#0071C6;
-}
-.navbar-nav>li.active>a, .navbar-nav>li.active>a:hover, .navbar-nav>li.active>a:focus {
 }
 .navbar-default {
   background-color: #0072C6;
