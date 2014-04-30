@@ -20,8 +20,11 @@ body {
 .media-object {
   width:160px;
 }
-h2,
+h2 {
+  margin-bottom:20px;
+}
 .carousel {
+  min-height:455px;
   margin-bottom:20px;
 }
 dd{
