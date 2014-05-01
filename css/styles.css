@@ -45,6 +45,9 @@ dd{
   .container {
     max-width: 768px;
   }
+  .navbar-brand {
+    display:none;
+  }
 }
 @media(max-width: 767px) {
   .navbar-nav {
@@ -81,12 +84,18 @@ a {
 .navbar-nav>li {
   float:none;
 }
+.navbar-default .navbar-brand{
+  color:#fff;
+}
 .navbar-default {
   background-color: #0072C6;
   border-color: #3479B9;
 }
 .navbar-default .navbar-nav>li>a {
   color: #fff;
+}
+.navbar-collapse{
+  padding:0px;
 }
 .navbar-default .navbar-nav>.active>a,
 .navbar-default .navbar-nav>.active>a:hover,
