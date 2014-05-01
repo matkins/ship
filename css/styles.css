@@ -7,8 +7,12 @@ body {
   border-bottom: 1px solid #e5e5e5;
   text-align:center;
 }
+.logo h1{
+  display:none;
+}
 .logo img {
-  height: 70px;
+  width: 360px;
+  max-width:100%;
   margin: 20px 0px 30px;
 }
 .media a{
@@ -46,8 +50,29 @@ dd{
   .navbar-nav {
     margin:0px;
   }
+  .container-nav {
+    padding:0px;
+  }
   .navbar-default .navbar-nav .open .dropdown-menu>li>a {
     color: #fff;
+  }
+  .carousel {
+    min-height:100px;
+  }
+}
+@media(max-width: 320px) {
+  .media-object {
+    width:100%;
+    margin-bottom:10px;
+  }
+  .media-body {
+    float:left;
+    clear:both;
+  }
+  .navbar-nav .open .dropdown-menu>li>a,
+  .navbar-nav .open .dropdown-menu .dropdown-header {
+    padding: 5px 15px;
+    text-align:center;
   }
 }
 a {
