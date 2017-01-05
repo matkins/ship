@@ -1,4 +1,4 @@
 name: SHIP
 markdown: redcarpet
-pygments: true
+highlighter: pygments
 url: http://www.shipsheffield.org.uk
